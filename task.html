@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task-1</title>
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="../node_modules/jquery/dist/jquery.js"></script> 
+    </head>
+    <body class="container m-4 bg-info">
+        <ul class="nav nav-tabs bg-dark">
+            <li class="nav-item"> <a href="#Home" class="nav-link"  data-bs-toggle="tab"> Home</a></li>
+            <li class="nav-item"> <a href="#About" class="nav-link" data-bs-toggle="tab"> About</a></li>
+            <li class="nav-item"> <a href="#Register" class="nav-link" data-bs-toggle="tab">Register</a></li>
+            <li class="nav-item"> <a href="#login" class="nav-link" data-bs-toggle="tab" > Login</a></li>
+        </ul>
+        <div class="tab-content"> 
+            <div class="tab-pane" id="Home">
+                <h1 class="text-success ">Welcome to LTE TechSoft..!</h1>
+            
+                <p>Welcome to LTE TechSoft. </p>
+                <p>Click on Register If you are a new user.</p>
+                <p>Click on LogIn,If already registered or user</p>
+            </div>
+            
+        </div>
+        <div class="tab-content"> 
+            <div class="tab-pane" id="About">
+                <h1 class="text-dark ">LTE TechSoft</h1>
+                <p>LTE TechSoft is a global customer experience and technology services provider, disrupting the industry with a unique intersection of industry-leading proprietary solutions, resilient operations, and innovative business engagement models. The company is a digital transformation partner of choice for its clients, which include the world’s top innovators across industries, from mid-market players to large enterprises.The company has overcome macroeconomic headwinds to become the industry’s fastest growing and most awarded company in its revenue range.</p>
+            </div>
+            
+        </div>
+        <div>
+            <div class="tab-content">
+                
+                <div class="tab-pane" id="Register">
+                    
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#modal">Register</button>
+                   
+                
+                    <div class="modal" id="modal" data-bs-backdrop="static" >
+                       
+                        
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                   <h1>Hi,Register to Lte TechSoft To avail Our Services..</h1> 
+    
+    
+                                </div>
+                                <div class="modal-body">
+                                    <div class="w-50">
+                                        <div>
+                                            <label class="form-label">Enter  Your Name : </label>
+                                            <div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label">Enter Password : </label>
+                                            <div>
+                                                <input type="password" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label">Enter  Your Email : </label>
+                                            <div>
+                                                <input type="email" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label">Enter MobileNo : </label>
+                                            <div>
+                                                <input type="tel" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label">Select Your City : </label>
+                                           
+                                        </div>
+                                        <div>
+                                            <label class="form-label">Select Your Gender : </label>
+                                            <div>
+                                                <input type="radio" name="gender" class="form-check-input"><label class="form-check-label">Male</label>
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="gender" class="form-check-input"><label class="form-check-label">Fe-Male</label>
+                                            </div>
+                                            <div>
+                                                <input type="radio" name="gender" class="form-check-input"><label class="form-check-label">Others</label>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        <div class="d-grid">
+                                            <button type="button" class="btn btn-primary">Register</button>
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+    
+    
+                                </div>
+    
+    
+    
+                            
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="tab-content">
+                
+                <div class="tab-pane" id="login">
+                    
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#style">Login</button>
+                   
+                
+                    <div class="modal" id="style" data-bs-backdrop="static" >
+                       
+                        
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                   <h1>Hi,signin to Lte TechSoft</h1> 
+    
+    
+                                </div>
+                                <div class="modal-body">
+                                    <div class="w-50">
+                                        <div>
+                                            <label class="form-label">Enter  Your username : </label>
+                                            <div>
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label class="form-label">Enter Password : </label>
+                                            <div>
+                                                <input type="password" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="d-grid">
+                                            <button type="button" class="btn btn-primary">Login</button>
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                        
+                                </div>
+    
+    
+    
+                            
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+        
+    </body>
+</html>
